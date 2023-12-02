@@ -1,0 +1,118 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }  
+ .container{
+    
+    margin: auto;
+    width: 90%;
+    height: 50vh;
+    font-size: 14px;
+ } 
+.A h2{
+    
+    padding-left: 20px;
+}
+.B h2{
+    padding-right: 20px;
+}
+
+.cont{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 20px 0;
+background-color: white;
+}
+
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    border-left: 3px solid rgb(172, 138, 226);
+    background-color: white;
+    box-shadow: 2px 2px 2px gray;
+    margin-bottom: 30px;
+
+}
+.prop{
+    text-transform: capitalize;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+.percent{
+   
+padding-right: 30px;
+}
+
+.status{
+    margin-right: 20px;
+    background-color: blueviolet;
+    color:rgb(12, 1, 12) ;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.card1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    border-left: 3px solid lightgray;
+    background-color: white;
+    box-shadow: 2px 2px 2px grey;
+    margin-bottom: 30px;
+}
+.shoot{
+    text-transform: capitalize;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.stat{
+    margin-right: 20px;
+    background-color:blueviolet;
+    color:rgb(12, 1, 12);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px
+
+}
+.card2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    border-left: 3px solid orange;
+    background-color: white;
+    box-shadow: 2px 2px 2px gray ;
+    margin-bottom: 20px;
+    
+}
+.test{
+    text-transform: capitalize;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.upcoming{
+    margin-right: 20px;
+    background-color: aqua;
+    color: orange;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px
+
+}
+.arrow i{
+    background-color: #222;
+    border-radius: 30px;
+    padding: 10px;
+    color: aliceblue;
+}

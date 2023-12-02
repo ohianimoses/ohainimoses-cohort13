@@ -1,0 +1,388 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(214, 213, 213);
+    width: 100%;
+    height: 100vh;
+}
+
+.container-one{
+    background-color: white;
+    height: 50px;
+    border-radius: 10px;
+    width: 67%;
+    margin-left: 20px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 10px 3px darkgray;
+}
+
+.container-two{
+    display: flex;
+    padding: 10px 50px;
+    gap: 50px;
+    
+       
+}
+
+.container-two p{
+    margin-top: 5px;
+    
+}
+
+.container-three{
+    display: flex;
+}
+
+.three{
+ background-color: white;
+ height: 50vh;
+ border-radius: 10px;
+ margin-top: 30px;
+ width: 67%;
+ margin-left: 20px
+    
+}
+
+.dd h1{
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 19px;
+    padding: 20px;
+}
+
+.container-four{
+    display: flex;
+    
+}
+
+.container-four img{
+    width: 40%;
+    border-radius: 20%;
+    padding: 5px 20px;
+}
+
+/* .image{
+   background-image: url(/image/we\ development\ 2.jpeg); 
+} */
+
+.cut{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.webdev{
+    margin-left: -160px;
+    display: block;
+
+}
+
+.wes{
+    display: block;
+    padding-top: 25px;
+    font-weight: bolder;
+    font-family: arial;
+    font-size: 18px;
+}
+
+.webdev p{
+    margin-top: 10px;
+}
+
+
+
+.star{
+    display: flex;
+}
+
+.jenn{
+    display: block;
+    margin-left: 120px;
+}
+
+.jenn h2{
+    display: block;
+    padding-top: 25px;
+    font-weight: bolder;
+    font-family: arial;
+    font-size: 18px;
+    
+}
+
+.star img{
+    width: 80px;
+    margin-top: 3px;
+    margin-left: -22px;
+    
+}
+
+.star p{
+    margin-top: 12px;
+    margin-left: -19px;
+}
+
+.enroll{
+    display: block;
+    margin-top: 30px;
+    margin-left: 130px;
+    border-radius: 10px;
+    
+}
+
+.enroll{
+    background-color: rgb(131, 2, 160);
+    padding: 10px;
+    height: 20px;
+    color: white;
+    
+}
+
+i{
+    display: block;
+    padding-top: 40px;
+    margin-left: 13px;
+}
+
+.wesi{
+    display: block;
+    padding-top: 25px;
+    font-weight: bolder;
+    font-family: arial;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.pp{
+    margin-left: 10px;
+}
+
+.enrolle{
+    display: block;
+    margin-top: 30px;
+    background-color: rgb(131, 2, 160);
+    padding: 10px;
+    height: 20px;
+    color: white;
+    border-radius: 7px;
+    margin-left: 130px;
+}
+
+.favour{
+    background-color: white;
+    margin-left: 20px;
+    width: 29%;
+    border-radius: 10px;
+    height: 62vh;
+    margin-top: -50px;
+}
+
+.love{
+    background-image: url(./image/BeautyPlus_20220123131928350_save.jpg);
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 70%;
+    position: relative;
+    left: -8px;
+}
+   
+
+
+
+.favour-one{
+    display: flex;
+    gap: 160px;
+}
+
+.favour-one h1{
+    font-size: 18px;
+    padding: 23px;
+    font-weight: bold;
+    font-family: arial;
+}
+
+.favour-one span{
+    margin-top: -13px;
+}
+
+
+
+.favour-three{
+    display: flex;
+    gap: 50px;
+    position: relative;
+    
+}
+
+.pi{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    /* background-color: rgb(227, 179, 227); */
+    position: relative;
+    left: 25px;
+    top: 20px;
+    font-size: 25px;
+    border: 3px solid plum;
+    text-align: center;
+    color: plum;
+    font-weight: bold;
+    
+    
+}
+.pii{
+    border-radius: 90%;
+    width: 25px;
+    height: 25px;
+    /* background-color: rgb(227, 179, 227); */
+    position: relative;
+    left: 25px;
+    top: 42px;
+    font-size: 25px;
+    border: 3px solid rgb(226, 250, 3);
+    text-align: center;
+    color: rgb(248, 224, 4);
+    font-weight: bold;
+}
+
+.nn span{
+  font-weight: bold;
+  font-size: 17px;
+  display: block;
+  margin-left: -45px;
+  font-family: arial;
+  margin-top: 10px;
+}
+
+.nn{
+    display: block;
+}
+
+.nn p{
+    display: block;
+    margin-left: -45px;
+    margin-top: 5px;
+}
+
+.nnn span{
+    font-weight: bold;
+    font-size: 17px;
+    display: block;
+    margin-left: -45px;
+    font-family: arial;
+    margin-top: 40px;
+}
+
+.nnn p{
+    display: block;
+    margin-left: -45px;
+    margin-top: 5px;
+}
+
+.piii{
+    border-radius: 90%;
+    width: 25px;
+    height: 25px;
+    /* background-color: rgb(227, 179, 227); */
+    position: relative;
+    left: 25px;
+    top: 42px;
+    font-size: 25px;
+    border: 3px solid rgb(250, 3, 56);
+    text-align: center;
+    color: rgb(248, 4, 69);
+    font-weight: bold;
+}
+
+
+
+.dn{
+    margin-top: 30px;
+    font-weight: bold;
+    
+}
+
+.love-one{
+    background-image: url(/image/man\ 2\ picture.jpg);
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 70%;
+    position: relative;
+    left: -8px;
+    margin-top: 20px;
+    
+}
+
+.love-two{
+    background-image: url(/image/man\ 3\ picture.jpg);
+    background-repeat: no-repeat;
+    left: -8px;
+    width: 72px;
+    height: 72px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 70%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.dada{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid darkolivegreen;
+    position: relative;
+    right: 1;
+    margin-top: 30px;
+}
+
+.dade{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid darkolivegreen;
+    position: relative;
+    right: 1;
+    margin-top: 30px;
+}
+
+.nnnn span{
+    font-weight: bold;
+    font-size: 17px;
+    display: block;
+    margin-left: -45px;
+    font-family: arial;
+    margin-top: 43px;
+}
+
+.nnnn p{
+    display: block;
+    margin-left: -45px;
+    margin-top: 5px;
+}
+
+.dnn{
+    margin-top: 50px;
+    font-weight: bold;
+    margin-left: 22px;
+}
+
+.dnnn{
+    margin-top: 55px;
+    font-weight: bold;
+    margin-left: -5px;
+}
+
+.san{
+    padding: 10px;
+    font-size: 20px;
+}

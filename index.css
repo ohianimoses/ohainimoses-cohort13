@@ -1,453 +1,349 @@
-@import url('https://fonts.googleapis.com/css2?family=Purple+Purse&display=swap');
 *{
 
-margin: 0;
 padding: 0;
+margin: 0;
+box-sizing: border-box;
 text-decoration: none;
-list-style: none;
+
+}
+ /* my main container starts here,this includes the header,see div,and container-flex */
+
+.container{
+
+background-color:rgb(248, 242, 242);
+width: 90%;
+margin: auto;
+height: 90vh;
+
 }
 
-/* here is my logo style */
+.header{
 
-img{
-width: 90px;
-border-radius: 70%;
-margin: 20px auto;
-/* margin-left: 14px; */
-}
-
-.val h1{
-    font-size: 22px;
-    text-align: center;
-    width: fit-content;
-    position: relative;
-    left: -300%;
-    transition: all 0.5s;
-}
-
-.menu-bar{
-
-position: sticky;
-top: 0;
-right: 0;
-bottom: 0;
-background-color: #0c012f;
-height: 100vh;
-width: 80px;
-padding: 0 12px;
-transition: all 0.5s;
-}
-
-.menu-bar:hover{
-    width: fit-content;
-}
-
-.menu-bar:hover .val h1{
-    left: 0%;
-}
-
-body{
 display: flex;
-}
-
-ul li{
-padding: 15px;
+margin-top: 20px;
+padding-top: 20px;
+padding-left: 20px;
 font-size: 15px;
-margin-top: 5px;
-}
-
-li a{
-
-color: white;
 
 }
 
-li a{
-display: flex;
-gap: 12px;
+.see{
+position:absolute;
+    right: 12%;
 
 }
+.see a{
 
-ul li i{
-    background-color: gray;
-    border-radius:10px;
-    padding: 3px 10px;
-}
-
-.signout i{
-    background-color: red;
-    border-radius:10px;
-   
-}
-
-ul li:hover{
-background-color:blue;
-border-radius: 12px;
-}
-
-ul .val{
-    color: white;
-    position: relative;
-    left: 200%;
-    transition: all .5s;
-} 
-
-.menu-bar:hover .val{
-    left: 0%;
-}
-
-/* menubar container ends here */
-
-.content-main{
-background: url(/dashboard/CSS/image/stock-vector-abstract-white-and-light-gray-wave-modern-soft-luxury-texture-with-smooth-and-clean-vector-subtle-1902297547.jpg);
-width: 100%;
-position: relative;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-height: 150vh;
-
-
-
+    color: gray;
 }
 
 
-
-/* header style starts here, this includes profile,search bar and img respectively */
-
-
-.img-profile img{
- width: 60px;
- margin-bottom: 20px;
-}
-
-.header-main{
-display: flex;
-justify-content: space-between;
-background-color: rgb(250, 246, 246);
-padding: 5px 20px;
-align-items: center;
-width: 92%;
-margin-left: auto;
-margin-right: auto;
-margin-top: 10px;
-border-radius: 10px;
-box-shadow: 2px 5px 6px 3px lightgray ;
-
-}
-.header-tittle{
-  columns: #0c012f;
-  font-size: 15px;
-  /* display: inline-flex; */
-}
-
-
-.header-tittle .span{
-  color: #0c012f;
-  font-size: 15px;
-  letter-spacing: 5px;
-  display: block;
-  padding-bottom: 6px;
-}
-
-.header-tittle .da{
-  display: inline-flex;
-  color: red;
-  font-weight: 500;
-  font-size: 20px;
-}
-
-
-/* profile and search starts here */
-
-.profile-info{
-  display: flex;
-  align-items: center;
-  gap: 100px;
- }
-
-.search-box input{
-  padding: 8px;
-  outline: none;
-  border: 1px solid gray;
-  border-radius: 10px;
-  /* position: relative; */
- }
-
-.search-box button{
-  padding: 8px;
-  position: relative;
-  left: -35px;
-  background-color: #0c012f;
-  color: aliceblue;
-  border-radius: 0px 5px 5px 0px;
-  border: 1px solid gray;
-  cursor: pointer;
-}
-
-.search-box:hover{
-  transform: scale(1.1);
-  padding: 8px;
-  cursor: pointer;
-}
-
-
-.search-box{
-  position: relative;
-}
-
- /* my card design starts here */
-
-
-.card-container{
-  background-color: #fff;
-  margin-top: 10px;
-  width: 92%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5px 20px;
-  border-radius: 10px;
-  height: 200px;
-  box-shadow: 5px 10px 10px 5px lightgray ;
-}
-
-
- .card-container h1{
-  
-   font-size: 20px;
-   color: #0c012f;
-
- }
-
- .card-flex{
+.container-flex{
 
  display: flex;
  gap: 20px;
+
+
+}
+
+/* main content starts here this includes .main-content-2 and .main-content-3 respectively */
+
+.main-content-1{
+
+background-color:white;
+padding: 40px;
+height: 65vh;
+margin-left: 20px;
+margin-top: 20px;
+border-radius: 15px;
+width: 30%;
+
+
+}
+
+.main-content-1:hover, .main-content-2:hover, .main-content-3:hover{
+
+    border: 2px solid purple;
+box-shadow: 10px 20px 30px rgb(227, 210, 227);
+}
+
+.card-1{
+
+background-color: rgb(166, 116, 166);
+padding: 40px;
+border-radius: 15px;
+
+
+}
+
+.card-1 img{
+
+margin-left: 35px;
+width: 60%;
+border-radius: 5px;
+
+}
+
+ h2{
+
+font-size: 18px;
+padding-top: 20px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.percentage-flex{
+
+ display: flex;
+    gap: 60px;
+}
+
+.green-main{
+ 
+ padding: 1px; 
+ background-color: rgb(154, 204, 154); 
+ opacity: 1; 
+ width: 70%;
  margin-top: 10px;
-
- }
-
- .card-student{
-
- background: rgba(99, 119, 104, 0.469);
- padding: 10px;
- display: flex;
- justify-content: space-between;
- flex-direction: column;
- width: 23%;
- height: 120px;
- border-radius: 10px;
- transition:  all 0.5s ease-in-out;
- cursor: pointer;
- color: #fff;
-
-
- }
-
- .card-student:hover{
-
- transform: translate(-5px);
-
-
- }
-
- .card-header{
- display: flex;
- justify-content: space-around;
- gap: 70px;
-
-
- }
-
- .passcode-info{
-   display: flex;
- flex-direction: column;
- color: #fff;
-
-
- }
+ border-radius: 5px;
  
+}
+.green-1{
 
- /* here  contains the icon design */
+background-color:darkgreen;
+padding: 3px;
+width: 40%;
+border-radius: 5px;
+}
 
+.button-1{
 
- .icon{
- font-size: 20px;
- background-color: white;
- padding: 10px;
- color: white;
- border-radius: 50%;
+background-color: #fff;
+padding: 12px 10px;
+margin-top: 40px;
+border-radius: 10px;
+border: 1px solid black;
 
- }
+}
 
- .red{
- background-color: red;
+     .button-1:hover{
 
+        
+        background-color: rgb(118, 54, 179);
+        color: #fff;
 
- }
- .white{
+        }
+        .button-1 a span:hover{
+         color: #fff;
 
- background-color: yellowgreen;
+        }
+   .button-1 a span{
 
- }
+    font-size: 25px;
+    padding-left: 30%;
+    color: black;
 
- .gray{
+    }
 
- background-color:azure;
+   .main-content-2{
 
- }
+    background-color:#fff;
+    padding: 40px;
+    height: 65vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 30%;
+    box-shadow: 10px 20px 30px rgb(212, 199, 199);
 
- .fa-shop-lock{
-
-  color: grey;
- }
-
-
-
- .dorgerblue{
-   background-image:linear-gradient(to right, red, #0c012f);
-   box-shadow: 2px 2px 2px 2px rgb(33, 49, 65);
-   background-color: transparent;
-
- }
-
- .iceblue{
-background-image: linear-gradient(to right,yellowgreen,khaki);
-box-shadow: 2px 2px 2px 2px ;
-
- }
-
- .dove{
- 
-   background-image: linear-gradient( to right, rgb(219, 156, 219), #0c012f);
-   box-shadow: 2px 2px 2px 2px ;
-
- }
-
- .color{
- background-image: linear-gradient( to right,  rgb(101, 122, 80), rgb(131, 211, 52));
- box-shadow: 2px 2px 2px 2px rgb(176, 145, 59);
-
- }
- 
- .fa-chalkboard-user{
- color: rgb(101, 122, 80);
- font-size: 20px;
-
- }
-
-
- .fa-people-line{
-
- font-size: 20px;
- color:white;
-
- }
-
- .fa-graduation-cap{
-  font-size: 20px;
-  color: #fff;
-
-
- }
-
- /* assignment container desgin starts here */
-
- .assignmemt-container{
-  background-color: #fff;
-  margin-top: 10px;
-  width: 92%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 8px 20px;
-  border-radius: 10px;
-  box-shadow: 1px 1px 1px 2px #405640;
-  
- }
- .assignmemt-container h1{
- 
- font-size: 20px;
- padding-bottom: 1rem;
-
- }
-
-
- .top-img img{
-    width: 50px;
- }
-
- .assignment-flex{
-
- display: flex;
- gap: 20px;
- padding: 10px;
- 
-
- }
-
- .assignment-subject{
-
- flex: 2;
- display: flex;
- justify-content: space-around;
- box-shadow: 5px 3px 10px 0 rgb(141, 123, 123);
- height: 70px;
- border-radius: 10px;
- align-items: center;
- border-left: 3px solid #0c012f;
- padding-top: 10px;
-
- 
-
- }
-
-  .courses h3{
-  font-size: 15px;
-  color: #0c012f;
-  font-weight: bold;
-  
-  }
-
-  .topic{
-
- font-size: 12px;
- font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- font-style: italic;
-  }
-
-  .btn{
-  background: #405640;
-  padding: 7px 10px;
-  border-radius: 10px;
-  color: #fff;
-  font-weight: bold;
-
-
-  }
-
-
-
-
- .top-performer{
-    display: flex;
-    justify-content: space-around;
-    box-shadow: 2px 3px 10px 0 rgb(141, 123, 123);
+    
+    }
+    
+    .card-2{
+    
+    background-color: rgb(225, 171, 72);
+    padding: 40px;
+    border-radius: 15px;
+    
+    }
+    
+    .card-2 img{
+    
+    margin-left: 55px;
+    width: 45%;
+    border-radius: 3px;
+    
+    }
+    
+     h2{
+    
+    font-size: 18px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    .percentage-flex{
+    
+     display: flex;
+        gap: 60px;
+    }
+    
+    .green-main{
+     
+     padding: 1px; 
+     background-color: rgb(154, 204, 154); 
+     opacity: 1; 
+     width: 70%;
+     margin-top: 10px;
+     border-radius: 5px;
+     
+    }
+    .green-2{
+    
+    background-color:darkgreen;
+    padding: 3px;
+    width: 70%;
+    border-radius: 5px;
+    }
+    
+    .button-2{
+    
+   background-color: #fff;
+    padding: 12px 10px;
+    margin-top: 40px;
     border-radius: 10px;
-    border-right: 3px solid #0c012f;
-    padding: 4px;
-    font-size: 15px;
-    align-items: center;
-    gap: 5px;
- }
- 
- .val{
+    border: 1px solid black;
+    
+    }
 
- color: red;
+    .button-2:hover{
+
+        background-color: rgb(118, 54, 179);
+        color: #fff;
+
+        }
+
+        .button-2 a span:hover{
+         color: #fff;
+
+        }
+    .button-2 a span{
+    
+        font-size: 25px;
+        padding-left: 30%;
+        color: black;
+    
+        
+    }
+
+    .main-content-3{
+
+        background-color:#fff;
+        padding: 40px;
+        height: 65vh;
+        margin-left: 20px;
+        margin-top: 20px;
+        border-radius: 15px;
+        width: 30%;
+        
+        }
+        
+        .card-3{
+        
+        background-color: rgba(234, 127, 164, 0.914);
+        padding: 30px;
+        border-radius: 15px;
+        
+        }
+        
+        .card-3 img{
+        
+        margin-left: 60px;
+        width: 45%;
+        border-radius: 3px;
+        
+        }
+        
+         h2{
+        
+        font-size: 18px;
+        padding-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        }
+        
+        .percentage-flex{
+        
+         display: flex;
+            gap: 60px;
+        }
+        
+        .green-main{
+         
+         padding: 1px; 
+         background-color: rgb(154, 204, 154); 
+         opacity: 1; 
+         width: 70%;
+         margin-top: 10px;
+         border-radius: 5px;
+         
+        }
+        .green-3{
+        
+        background-color:darkgreen;
+        padding: 3px;
+        width: 20%;
+        border-radius: 5px;
+        }
+        
+        .button-3{
+        
+       background-color: #fff;
+        padding: 12px 10px;
+        margin-top: 40px;
+        border-radius: 10px;
+        border: 1px solid black;
+        
+        }
+
+        .button-3:hover{
+
+        
+        background-color: rgb(118, 54, 179);
+        color: #fff;
+
+        }
+        .button-3 a span:hover{
+         color: #fff;
+
+        }
 
 
- }
-  h3.vic{
+        .button-3 a span{
+        
+            font-size: 25px;
+            padding-left: 30%;
+            color: black;
+        
+        }
 
- color: red;
+        .icon{
+        margin-top: 25px;
+        margin-left: 20px;
+        font-size: 20px;
+        
 
- }
+        }
+
+        .icon a span{
+            color: #222;
+        }
+        
+        
+        
+    
+    
+    
+
+

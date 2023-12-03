@@ -15,7 +15,7 @@ body{
     border-radius: 10px;
     width: 67%;
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 50px;
     box-shadow: 5px 5px 10px 3px darkgray;
 }
 
@@ -55,18 +55,14 @@ body{
 
 .container-four{
     display: flex;
-    
 }
 
 .container-four img{
     width: 40%;
     border-radius: 20%;
     padding: 5px 20px;
+    height: auto;
 }
-
-/* .image{
-   background-image: url(/image/we\ development\ 2.jpeg); 
-} */
 
 .cut{
     display: flex;
@@ -386,3 +382,4 @@ i{
     padding: 10px;
     font-size: 20px;
 }
+

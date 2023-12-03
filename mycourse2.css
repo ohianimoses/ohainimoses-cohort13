@@ -7,7 +7,10 @@ margin: 0;
 
 .Container{
 background-color: aliceblue;
-height: 100vh;
+height: auto;
+margin: 30px auto;
+display: flex;
+flex-direction: column;
 
 }
 
@@ -87,9 +90,17 @@ background-color: blueviolet;
 
 }
 
+.border{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
 tr th{
     padding: 30px;
     color: blueviolet;
+    text-align: center;
 }
 
 tr td{
@@ -98,9 +109,9 @@ tr td{
 }
 
  .border img{
-
-
-    border-radius: 25%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
  }
 
  .contact{
@@ -109,11 +120,17 @@ tr td{
     font-size: 15px;
  }
 
- .back-icon{
-
+ .back-icon a{
+    color: black;
+    font-size: 25px;
     position: absolute;
-    left: 0;
+    left: 10px;
     top: 0;
-    margin-top: 6px;
+    margin: 10px;
     margin-left: 5px;
+ }
+
+ .back-icon:hover a{
+    color: blueviolet;
+    border-radius: 50%;
  }

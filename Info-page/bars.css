@@ -14,14 +14,15 @@ body{
 .cont-flex{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding:30px;
     
 }
 .con{
     background-color: white;
     width: 32%;
-    padding: 22px;
-    height: 65vh;
+    padding: 10px;
+    height: auto;
     position: relative;
     box-sizing: border-box;
     box-shadow: 2px 2px 2px 2px gray;

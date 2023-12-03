@@ -115,3 +115,9 @@ button{
     font-size: 28px;
     bottom: 80px;
 }
+
+.back{
+    position: absolute;
+    left: 10%;
+    top: 0%;
+}

@@ -9,7 +9,7 @@ body{
 .container{
     width: 100%;
     background-color: rgb(231, 227, 246);
-    margin-top: 300px;
+    margin: 100px auto;
     box-shadow: 3px 0px 0px 0px purple;
 }
 
@@ -23,9 +23,9 @@ body{
     background-color: white;
     width: 28%;
     border-radius: 20px;
-    margin-top: 40px;
-    padding: 5px 30px;
-    height: 15vh;
+    margin-top: 20px;
+    padding: 30px 30px;
+    height: auto;
     box-shadow: 2px 2px 2px 2px rgb(167, 161, 193);
 }
 .cont2{
@@ -41,6 +41,7 @@ body{
     justify-content: space-between;
     align-items: center;
     position: relative;
+    margin-top: 50px;
 }
 .spa{
     position: absolute;

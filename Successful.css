@@ -1,0 +1,80 @@
+.container{
+
+    background-color: brown;
+    height: 100vh;
+    margin: 0px auto;
+    width: 90%;
+    position: relative;
+
+}
+
+
+.main{
+
+
+background-color: white;
+width: 98%;
+height: 650px;
+margin: 5px auto;
+border-radius: 20px;
+
+
+}
+
+h1{
+
+text-align: center;
+color:darkslateblue;
+position: absolute;
+top: 60%;
+left: 31%;
+max-width: 50%;
+}
+
+
+img{
+
+max-width: 30%;
+width: 100%;
+height: auto;
+margin: 0px auto;
+
+/* margin-left: 470px;
+margin-top: 100px; */
+
+
+}
+
+
+
+@media screen {
+
+
+    img{
+
+
+        background-color: brown;
+        margin: 0px auto;
+        position: absolute;
+        top: 10%;
+        left: 34%;
+
+
+
+    }
+    
+
+
+
+}
+
+
+
+i{
+
+position: absolute;
+bottom: 10%;
+left: 5%;
+
+
+}
